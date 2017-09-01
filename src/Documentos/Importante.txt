@@ -1,13 +1,15 @@
-Prepara��o do ambiente:
+Preparação do ambiente:
 
-Configurar vari�veis de ambiente para a pasta do java JDK.
+Configurar variáveis de ambiente para a pasta do java JDK.
 
 C:\Program Files\Java\jdk1.8.0_111\bin
 
-Para compilar:
+Para criar a estrutura do CORBA:
 
 idlj -fall CalculadoraApp.idl
 
-Para Buildar:
+Para criar o socket de comunicação entre servidor e cliente:
 
-start tnameserv -ORBInitialPort PORTA(verificar qual porta que a aplica��o est� tentando inicializar)
+start tnameserv -ORBInitialPort PORTA(verificar qual porta que a aplicação está tentando inicializar)
+
+Para testar é só buildar a aplicação e rodar (Servidor/Cliente)
