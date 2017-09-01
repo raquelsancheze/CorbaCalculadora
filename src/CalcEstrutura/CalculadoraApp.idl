@@ -1,0 +1,13 @@
+
+module Calculadora
+{
+  interface CalculadoraApp
+  {
+    double somafn(in double a, in double b);
+    double subtracaofn(in double a, in double b);
+    double multiplicacaofn(in double a, in double b);
+    double divisaofn(in double a, in double b);
+    double potenciafn(in double a, in double b);
+    double raizfn(in double a);
+  };
+};

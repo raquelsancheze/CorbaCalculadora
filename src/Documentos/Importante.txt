@@ -1,0 +1,13 @@
+Preparação do ambiente:
+
+Configurar variáveis de ambiente para a pasta do java JDK.
+
+C:\Program Files\Java\jdk1.8.0_111\bin
+
+Para compilar:
+
+idlj -fall CalculadoraApp.idl
+
+Para Buildar:
+
+start tnameserv -ORBInitialPort PORTA(verificar qual porta que a aplicação está tentando inicializar)
